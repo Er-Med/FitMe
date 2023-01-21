@@ -453,6 +453,7 @@ header .heart-icon,
   position: relative;
   height: calc(100vh -4.37rem);
   overflow-x: hidden;
+  overflow-y: hidden;
   opacity: 0;
   transition: opacity .5s;
   padding-top: 7vh;
