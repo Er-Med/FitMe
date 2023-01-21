@@ -484,7 +484,7 @@ header .heart-icon,
   position: absolute;
   width: 9rem;
   right: -3rem;
-  top: 5rem;
+  top: 3rem;
 }
 
 .main .left-img {
@@ -498,7 +498,7 @@ header .heart-icon,
   position: absolute;
   width: 10rem;
   left: -3rem;
-  bottom: 5rem;
+  bottom: 4rem;
 }
 
 @media(max-width:992px) {
@@ -513,12 +513,12 @@ header .heart-icon,
 
   .main .s-left-img {
     width: 9rem;
-    bottom: 13rem;
+    bottom: 11rem;
   }
 
   .main .s-right-img {
-    width: 9rem;
-    top: 10rem;
+    width: 8rem;
+    top: 9rem;
   }
 }
 
