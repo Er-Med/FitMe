@@ -143,7 +143,7 @@ button:focus {
   justify-content: center;
   align-items: center;
   padding: 0.62rem 1.25rem;
-  letter-spacing: 0.19rem;
+  letter-spacing: 0rem;
   font-weight: 500;
   color: var(--light-gray-color);
   background-color: var(--balck-color);
