@@ -1,0 +1,160 @@
+.diet-detailes {
+  padding: 3.125rem 0;
+  }
+  .diet-detailes .container {
+    position: relative;
+    display: flex;
+    gap: 1.875rem;
+    border-top: 0.1875rem solid #F3F3F3;
+    border-top-left-radius: 2.5rem;
+    border-bottom-left-radius: 8.5625rem;
+    border-bottom: 0.1875rem solid #f3f3f3;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-left: 0.25rem solid #ffc107;
+    }
+
+@media(max-width:992px) {
+  .diet-detailes .container {
+    flex-direction: column;
+    border-bottom-left-radius: 5.5rem;
+    border-left: none;
+  }
+}
+
+.diet-detailes .prev,
+.diet-detailes .next {
+  background-color: #e9e9e9;
+  color: #333;
+  opacity: .7;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  transition: all .2s;
+  transform: scale(0.9);
+}
+
+.diet-detailes .prev:hover,
+.diet-detailes .next:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.diet-detailes .container .image {
+  flex: 1;
+}
+
+.diet-detailes .container .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem 0rem 0rem 8rem;
+  min-height: 15rem;
+  filter: drop-shadow(0.0625rem 0.0625rem 0.1875rem #0000006a);
+}
+
+.diet-detailes .container .info {
+  flex: 1;
+  padding-top: 2rem;
+}
+
+@media(max-width:992px) {
+  .diet-detailes .container .info {
+    padding: 0;
+  }
+}
+
+.diet-detailes .container .info .title {
+  align-items: flex-start;
+}
+
+.diet-detailes .container .info .likes i {
+  color: #e9e9e9;
+  margin-top: .5rem;
+  transition: all .3;
+
+}
+
+.diet-detailes .container .info .likes i:hover {
+  color: red;
+}
+
+.diet-detailes .container .info .title h1 {
+  font-size: 3rem;
+}
+
+.diet-detailes .container .title h3 {
+  color: rgb(184, 181, 181);
+  font-size: 1.2rem;
+}
+
+.diet-detailes .container .calcs h3 {
+  color: #777;
+}
+
+.diet-detailes .container .calcs .price p {
+  font-size: 2rem;
+  color: var(--green-color);
+  font-weight: 700;
+}
+
+.diet-detailes .container .calcs .quantity span {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #777;
+  background-color: #e9e9e9;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transform: scale(.9);
+  transition: all .2s;
+}
+
+.diet-detailes .container .calcs .quantity span:hover {
+  transform: scale(1);
+  background-color: var(--green-color);
+  color: #fff;
+}
+
+.diet-detailes .container .calcs .quantity p {
+  font-size: 1.5rem;
+}
+
+.diet-detailes .container .description h2 {
+  color: #777;
+  border-bottom: 0.125rem solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.diet-detailes .container .description p {
+  font-weight: 400;
+  font-size: .9rem;
+}
+
+.diet-detailes .container .info .rate span {
+  font-weight: 700;
+}
+
+.diet-detailes .container .info .rate i {
+  color: #dadadb;
+}
+
+.diet-detailes .container .info .rate i:not(:last-of-type) {
+  color: var(--yellow-color);
+}
+
+.diet-detailes .container .info .sell .add-to-Cart button {
+  padding: .7rem;
+  width: 12rem;
+}
+
+.like-event {
+  color: red;
+}

@@ -1,0 +1,52 @@
+
+
+.amount {
+   width: fit-content;
+    margin: 2rem auto;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.remove-icon{
+  background: #f00;
+  color: #fff;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  /* bottom: 3rem; */
+  right: .5rem;
+  top: .5rem;
+  z-index: 200;
+  transition: .2s;
+}
+.amount .content{
+  border: 0.1875rem solid #f3f3f3;
+  padding: 2rem;
+  /* margin: auto; */
+
+}
+.remove-icon:hover{
+  transform: scale(1.2);
+}
+
+.amount .total {
+  font-weight: 500;
+  background-color: #1ac84b;
+  color: #fff;
+  padding: .4375rem;
+  font-size: 1.5rem;
+  border-radius: .3125rem;
+}
+
+.amount .pay {
+  font-size: 1.5rem;
+  border-radius: .5625rem;
+}
+.amount .calc-btn{
+    font-size: 1.2rem;
+  }

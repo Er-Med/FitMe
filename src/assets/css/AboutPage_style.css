@@ -1,0 +1,86 @@
+section.about {
+  padding: 3.125rem 0;
+}
+
+section.about .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1.875rem;
+  border-top: 0.1875rem solid #F3F3F3;
+  border-top-left-radius: 2.5rem;
+  border-bottom-left-radius: 8.5625rem;
+  border-bottom: 0.1875rem solid #f3f3f3;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  border-left: 0.25rem solid #ffc107;
+}
+
+@media(max-width:62.5rem) {
+  section.about .container {
+    flex-direction: column;
+    border-bottom-left-radius: 5.4375rem;
+    border-left: none;
+  }
+}
+
+section.about .container .image {
+  position: relative;
+  flex: 1;
+  min-width: 18.75rem;
+  height: 25rem;
+  border-radius: 0.3125rem;
+}
+
+section.about .container .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.625rem 0rem 0rem 0.5rem;
+  min-height: 9.375rem;
+  filter: drop-shadow(0.0625rem 0.0625rem 0.1875rem #0000006a);
+  border-bottom-left-radius: 8rem;
+}
+
+section.about .container .info {
+  flex: 1;
+  min-width: 18.75rem;
+}
+
+@media(max-width:62.5rem) {
+  section.about .container .desc {
+    text-align: center;
+  }
+
+  section.about .desc span {
+    justify-content: center;
+  }
+
+  section.about a.main-btn {
+    margin: auto;
+  }
+
+}
+
+section.about .container .desc h2 {
+  margin-bottom: 1.25rem;
+}
+
+section.about .container .desc p {
+  margin-top: 0.3125rem;
+  margin-bottom: 0.9375rem;
+}
+
+section.about .container .desc a.main-btn {
+  width: 7.8125rem;
+}
+
+.show-item {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.hide-item {
+  opacity: 0;
+  transition: opacity .5s;
+}

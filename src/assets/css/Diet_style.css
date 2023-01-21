@@ -1,0 +1,105 @@
+.card .image {
+  position: relative;
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  margin-bottom: .7rem;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem 2rem 2rem 0rem;
+  transition: filter .3s;
+}
+
+.card .image .moreBtn {
+  background: var(--green-color);
+  filter: drop-shadow(2px 4px 6px #000070);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  padding-bottom: 1rem;
+}
+
+.card ul {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.card ul li {
+  background: rgba(249, 245, 245, 0.998);
+  color: var(--balck-color);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card p {
+  margin-bottom: 1rem;
+}
+
+.card .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .price span {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #6a787c;
+}
+
+.card .price span>span {
+  font-size: 1rem;
+  color: var(--balck-color);
+  font-weight: 700;
+  margin-left: 0.19rem;
+  margin-right: 2px;
+}
+
+
+.card .shoppingBag {
+  width: 1.3rem;
+}
+
+.card .price .icons .like-icon,
+.card .price .icons .cart-icon {
+  cursor: pointer;
+  transition: scale .1s;
+  font-size: 1.4rem;
+  transition: all .3s;
+  color: #dadadb;
+}
+
+.card .price .icons .like-icon:hover {
+  color: #cac4c4;
+}
+
+.card .price .icons .cart-icon:hover {
+  color: var(--green-color);
+}
+
+.card .price .icons .like-icon:hover {
+  scale: 1;
+}
+
+.card .price .icons .like-icon.active-like-icon {
+  scale: 1.2 !important;
+  color: red;
+}
+
+.card .price .icons .cart-icon.active-cart-icon {
+  scale: 1.2 !important;
+  color: var(--green-color);
+}

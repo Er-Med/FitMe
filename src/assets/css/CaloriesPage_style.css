@@ -1,0 +1,174 @@
+section.calories {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+section.calories .container .content {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+
+@media(max-width:992px) {
+  section.calories .container .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+section.calories .container .content .calculator {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  flex-basis: 50%;
+}
+
+section.calories .container .content .calculator .type ul {
+  display: flex;
+  gap: 1rem;
+}
+
+section.calories .container .content .calculator .type ul li {
+  padding: 0.4rem 0.62rem;
+  border-radius: 0.62rem;
+  background-color: #c1c1c15e;
+  min-width: 6.25rem;
+  transition: .3s;
+}
+
+section.calories .container .content .calculator .type ul li:hover {
+  color: #fefefe;
+  background-color: var(--green-color);
+}
+
+section.calories .container .content .calculator .type ul li.active,
+section.calories .container .content .calculator .type ul li:hover {
+  background-color: var(--green-color);
+}
+
+section.calories .container .content .calculator .desc h2 {
+  margin-bottom: 1rem;
+}
+
+section.calories .container .content .calculator .gender {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.calories .container .content .calculator .gender .man,
+.women {
+  transition: all .3s;
+}
+
+.clicked {
+  scale: 1.9;
+}
+
+section.calories .container .content .calculator .gender .man {
+  cursor: pointer;
+  color: rgb(40, 194, 240);
+}
+
+section.calories .container .content .calculator .gender .man:hover,
+.women:hover {
+  scale: 1.3;
+}
+
+section.calories .container .content .calculator .gender .women {
+  color: rgb(226, 43, 205);
+  cursor: pointer;
+
+}
+
+section.calories .container .content .calculator form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+section.calories .container .content .calculator form label {
+  display: flex;
+  font-size: .9rem;
+  padding-left: .5rem;
+  margin-bottom: .4rem;
+  color: #777;
+}
+
+section.calories .container .content .calculator form input,
+form select {
+  min-width: 15rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  flex-grow: 1;
+  border: 1px solid var(--gray-color);
+}
+
+@media (max-width:992px) {
+
+  section.calories .container .content .calculator form input,
+  select {
+    width: 100%;
+  }
+}
+
+section.calories .container .content .calculator .result {
+  color: var(--green-color);
+  font-size: 1.3rem;
+}
+
+section.calories .container .content .calculator .main-btn.calc {
+  background-color: var(--yellow-color);
+  border: none;
+  width: 5rem;
+  font-weight: 700;
+}
+
+section.calories .container .content .order {
+  flex: 1;
+
+  flex-basis: 40%;
+  background-color: var(--light-gray-color);
+  border-radius: 5rem;
+  text-align: center;
+  padding: 3rem;
+}
+
+section.calories .container .content .order .contact {
+  margin-top: 2rem;
+}
+
+section.calories .container .content .order .contact span {
+  flex-direction: column;
+  margin-bottom: 0.19rem;
+  gap: .5rem;
+}
+
+section.calories .container .content .order .contact span small {
+  font-size: .8rem;
+}
+
+section.calories .container .content .order .contact p {
+  margin: 0;
+  padding: 0;
+  color: var(--black-color);
+  font-weight: 500;
+  font-size: 0.94rem;
+}
+
+section.calories .calculator-questions {
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+section.show-item {
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+section.hide-item {
+  opacity: 0;
+  transition: opacity .5s;
+}

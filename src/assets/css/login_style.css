@@ -1,0 +1,140 @@
+.log-in {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 2000;
+  background: #000000c3;
+  width: 200%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in .content {
+
+  width: 90vw;
+  padding-top: 0.3125rem;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  padding-bottom: 0.3125rem;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  display: flex;
+  gap: 0.625rem;
+  min-height: 90vh;
+  max-height: 95vh;
+  position: relative;
+
+}
+
+.log-in .content i.close-icon {
+  position: absolute;
+  width: 1.875rem;
+  height: 1.875rem;
+  background-color: #80978145;
+  top: -0.3125rem;
+  right: -1.98rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.125rem;
+  border-radius: 0.3125rem;
+  transition: .2s;
+}
+
+.log-in .content i.close-icon:hover {
+  background-color: #e1f5e247;
+}
+
+@media(max-width: 560px) {
+  .log-in .content {
+    width: 90vw;
+  }
+}
+
+.log-in .sign-in {
+  flex: 1;
+}
+
+.log-in .sign-in .img-fix {
+  width: 1.875rem;
+}
+
+.log-in .sign-in .info {
+  padding: 0.625rem;
+  padding-top: 0.3125rem;
+}
+
+.log-in .sign-in .info .titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3125rem;
+}
+
+.log-in .sign-in .info .titles h2 {
+  font-size: 2.1875rem;
+}
+
+.log-in .sign-in .info form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  margin: 1.25rem 0;
+}
+
+.log-in .sign-in .info form div.email,
+div.password {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  margin-bottom: 0.625rem;
+}
+
+.log-in .sign-in .info form label {
+  color: #777;
+}
+
+.log-in .sign-in .info form input {
+  border: 0.0625rem solid rgb(173, 166, 166);
+  width: 100%;
+  padding: 0.625rem;
+  border-radius: 0.625rem;
+}
+
+.log-in .sign-in .info form .err {
+  color: red;
+}
+
+.log-in .sign-in .info form p.forgot {
+  text-align: center;
+  margin-bottom: 0.3125rem;
+}
+
+.log-in .sign-in p.sign-up {
+  text-align: center;
+}
+
+.log-in .sign-in p.sign-up button {
+  color: #333;
+  background: none;
+  border: none;
+  font-weight: 700;
+}
+
+.log-in .slide {
+  flex: 1;
+  background-image: url('../images/blog4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media(max-width :900px) {
+  .log-in .slide {
+    display: none;
+  }
+}
