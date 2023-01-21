@@ -27,7 +27,9 @@
 .amount .content{
   border: 0.1875rem solid #f3f3f3;
   padding: 2rem;
-  /* margin: auto; */
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .remove-icon:hover{
