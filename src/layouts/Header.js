@@ -162,16 +162,14 @@ const Header = () => {
           }
           {
 
-            (user !== null) ?
-              <Link to="/CartPage" className="flex "
-                >
-                <AiOutlineHeart className='heart-icon' />
-                <small className="cart-items-count">
-                  {(likedDiets.length === 0) ? 0 : likedDiets.length}
-                </small>
+             (user === null) ?
+              <Link to='/'>
+                <FiLogIn className="logout-icon" onClick={() => { setIsLogInRequest(true); }} />
               </Link>
               :
-              null
+              <Link to='/'>
+                <FiLogOut className="logout-icon" onClick={logout} />
+              </Link>
           }
         </div>
 
