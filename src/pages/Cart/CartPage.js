@@ -51,6 +51,11 @@ function CartPage() {
             ))
           )
       }
+        <div className="amount flex y-center gap-1 flex-wrap">
+        <button className="calc-btn main-btn" onClick={calcTotal}>Calc</button>
+        <span className="total">${totalAmount}</span>
+        <button className="pay main-btn">Checkout</button>
+        </div>
     </>
   );
 }
