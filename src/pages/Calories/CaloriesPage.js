@@ -150,11 +150,11 @@ function Calories() {
             <div className="contact wrap flex f-evenly gap-1">
               <span className="y-center grow">
                 <small>Phone </small>
-                <p>05 65  74 28 97</p>
+                <p>05 94 10 38 69</p>
               </span>
               <span className="y-center grow">
                 <small>Email </small>
-                <p>diethealth4@gmail.com</p>
+                <p>mohamedermili@gmail.com</p>
               </span>
             </div>
           </div>
