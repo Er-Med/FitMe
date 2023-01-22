@@ -390,7 +390,8 @@ header .container .inscription img {
 
 header .cart-icon,
 header .heart-icon,
-.logout-icon {
+.login-icon,
+.logout-icon{
   font-size: 1.7rem;
   transition: .2s;
 }
