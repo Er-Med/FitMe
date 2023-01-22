@@ -436,7 +436,7 @@ header .heart-icon,
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    z-index: 100;
+    z-index: 1000;
     border-radius: 0.62rem;
     opacity: 0;
     transition: .3s;
