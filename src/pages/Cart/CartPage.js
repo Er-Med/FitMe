@@ -51,21 +51,6 @@ function CartPage() {
             ))
           )
       }
-
-      <div className="amount flex flex-column gap-1">
-        <h2>SHOP NOW</h2>
-        <div className="content flex y-center gap-1">
-          <button className="calc-btn main-btn" onClick={() => calcTotal()}>
-            Calc Total
-          </button>
-          <div className="total ">
-            ${totalAmount}
-          </div>
-          <button className="pay main-btn">
-            checkout 
-          </button>
-        </div>
-      </div>
     </>
   );
 }
