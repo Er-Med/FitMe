@@ -164,7 +164,7 @@ const Header = () => {
 
              (user === null) ?
               <Link to='/'>
-                <FiLogIn className="logout-icon" onClick={() => { setIsLogInRequest(true); }} />
+                <FiLogIn className="login-icon" onClick={() => { setIsLogInRequest(true); }} />
               </Link>
               :
               <Link to='/'>
