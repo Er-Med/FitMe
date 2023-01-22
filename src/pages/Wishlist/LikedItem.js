@@ -47,7 +47,7 @@ function CartItem({ img, title, price, category, id, desc }) {
             </div>
           </div>
         </div>
-        <i className="fa-solid fa-xmark remove-item" onClick={() => handleRemoveFromWishlist(id)
+        <i className="fa-solid fa-xmark remove-icon" onClick={() => handleRemoveFromWishlist(id)
         }
         >
         </i>
