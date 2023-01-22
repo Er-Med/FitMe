@@ -117,11 +117,7 @@ const Header = () => {
 
         <nav className="nav">
           <ul className={isShowBarMenu ? 'm-gap flex show-nav' : 'm-gap flex'}>
-
-            {
-              (window.location.pathname === '/') ? '' :
-                <li> <NavLink to="/" onClick={showBarMenu}> Home </NavLink> </li>
-            }
+             <li> <NavLink to="/" onClick={showBarMenu}> Home </NavLink> </li>
             <li>
               <NavLink to="/CaloriesPage" onClick={showBarMenu}> calorie calculator </NavLink>
             </li>
