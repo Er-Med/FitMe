@@ -150,8 +150,7 @@ const Header = () => {
 
           {
             (user !== null) ?
-              <Link to="" className="flex "
-                onClick={() => { setIsLogInRequest(true); }}>
+              <Link to="/WishlistPage" className="flex ">
                 <AiOutlineHeart className='heart-icon' />
                 <small className="cart-items-count">
                   {(likedDiets.length === 0) ? 0 : likedDiets.length}
