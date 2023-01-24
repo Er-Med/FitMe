@@ -3,7 +3,6 @@
 .amount {
    width: fit-content;
     margin: 2rem auto;
-    padding: 0.625rem 1.875rem;
     border-radius: 1rem;
     text-align: center;
 }
